@@ -1,47 +1,21 @@
 @extends('layouts.layouts')
 @section('content')
-<style>
-    .A {
-        color: #0a58ca;
-        text-decoration: none;
-    }
-
-    .maps {
-        width: 100%;
-        /* Lebar responsif */
-        height: 400px;
-        /* Tinggi tetap 400px */
-    }
-
-    @media screen and (min-width: 375px) {
-        .maps {
-            width: 350px;
-            height: 400px;
-        }
-    }
-
-    @media screen and (min-width: 570px) {
-        .maps {
-            width: 600px;
-            height: 600px;
-        }
-    }
-</style>
-
-<!--Carousel Wrapper-->
-
-
-<section class="container py-5">
-    <div class="text-center">
-        <h1 id="dazmi" class="dazmi fw-bold">Kontak dan Alamat</h1>
+<section id="heroo" style="margin-top: 90px;">
+    <div class="container col-xxl-6 text-center text-white">
+        <div class="title">
+            <div class="hero-text">Kontak</div>
+        </div>
     </div>
+</section>
+
+<section class="py-5">
     <div class="align-items-center">
         <div class="text-center py-2">
             <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15859.927881038822!2d106.6901608!3d-6.3963247!3m2!1i1024!2i768!4f13.1
                 !3m3!1m2!1s0x2e69e7bf53f36d41%3A0xb415aedd8993b720!2sPondok%20Pesantr
                 en%20Daarul%20Azmi!5e0!3m2!1sid!2sid!4v1707360168810!5m2!1sid!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="maps"></iframe>
         </div>
-        <div>
+        <div class="container pt-5">
             <h5 class="text-center"><a class="A" href="https://maps.app.goo.gl/Aa9ipCmPJ2b6brLd6" target="_blank">
                     Kp. Rawalembang RT 03/11, Desa Cibinong Kecamatan Gunungsindur, Kabupaten Bogor 16340
                 </a>

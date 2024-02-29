@@ -3,39 +3,33 @@
 @section('content')
 
 {{-- PIMPINAN --}}
+<section id="heroo" style="margin-top: 90px;">
+  <div class="container text-center text-white">
+    <div class="title">
+      <div class="hero-text">Profil Pimpinan Daarul Azmi</div>
+    </div>
+  </div>
+</section>
+
 <section class="leader section py-2 bg-light">
-  <div class="container">
+  <div class="container  col-xxl-8 ">
     <div class="row d-flex align-items-center">
       <div class="col-lg-12 text-center">
-        <div class="header-leader">
-          <h2 class="lead fw-bold">Profile Pimpinan Daarul Azmi</h2>
-        </div>
         <div class="col-lg-16 mx-auto">
-          <svg class="home__blob-bio" width="90" height="90" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-            <mask id="mask0" mask-type="alpha">
-              <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
-                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
-                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
-            </mask>
-            <g mask="url(#mask0)">
-              <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
-                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
-                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
-              <image class="home__blob-img-bio" x='-45' y='-50' width="300" height="307" xlink:href="{{ asset('assets/images/pimpinan.png') }}" />
-            </g>
-          </svg>
+          <img src="{{ asset('assets/images/pimpinan.png') }}" class="img-fluid" width="300" height="307" alt="">
+          <div>
+            <p class="profile-box">Kiyai Al-Ustadz Ibnu Mubarok,SHI</p>
+          </div>
         </div>
-        <h2 class="text-bold text-center py-3"><b> Ustadz Ibnu Mubarok, SHI</b></h2>
+        <h2 class="text-bold text-center py-3" style="color: #144171;"><b> Ustadz Ibnu Mubarok, SHI</b></h2>
       </div>
     </div>
     <div class="text-bio card-box shadow-sm border-0">
-      <p class="text-justify first-line-indent"> Bernama Lengkap (Al-Ustadz Kiyai) Ibnu Mubarok, lahir pada tanggal 17 Desember
+      <p class="text-justify"> Bernama Lengkap (Al-Ustadz Kiyai) Ibnu Mubarok, lahir pada tanggal 17 Desember
         1985 di Kp. Rawalembang, yang mana menjadi tempat berdirinya juga Pondok
         Pesantren Daarul Azmi yang dipimpinnya.
       </p>
-      <p class="text-justify first-line-indent">
+      <p class="text-justify">
         Mengenyam Pendidikan dasar di Madrasah kampung Cibinong seperti pada anak
         seusianya, beliau melanjutkan jenjang Pendidikan di Pondok Pesantren Daarul
         Mukhlishin selama enam tahun. Dimana beliau mempelajari pembelajaran pondok
@@ -45,12 +39,12 @@
         Madzhab Fiqh di Fakultas Syariah dan Hukum. Setelah itu, beliau aktif menimba ilmu
         kitab kuning dan memperkayanya ke berbagai guru atau kiyai secara mandiri.
       </p>
-      <p class="text-justify first-line-indent">
+      <p class="text-justify">
         Selepas menempuh pendidikannya, beliau lebih banyak menghabiskan waktunya
         untuk terjun ke masyarakat, aktif berdakwah, berceramah dan mengisi kajian serta
         tabligh akbar sampai dengan saat ini.
       </p>
-      <p class="text-justify first-line-indent">
+      <p class="text-justify">
         Selain itu, salah satu dakwah yang ditempuh dengan cara berbeda, yakni beliau aktif
         mengembangkan dakwah melalui jalur organisasi dzikir atau yang disebut dengan
         Thoriqoh yang mu’tabaroh di Indonesia yang kemudian rutin diadakan acara
@@ -59,20 +53,30 @@
         Aswaja, dan beliau juga dipercaya sebagai pimpinan wilayah. Juga beliau turut serta
         keanggotaan Forum Silaturahmi Pesanteren se-Gunung Sindur.
       </p>
-      <p class="text-justify first-line-indent">
+      <p class="text-justify">
         Pernah berprofesi sebagai seorang jurnalis, beliau sangat hobi menulis, sudah
         membuat karya ilmiah, diantaranya :
       </p>
-      <p class="line text-justify">
-        1. Menulis artikel pendek seputar fiqh mualamalah di beberapa situs. <br>
-        Mengukur Riba Menuju Halal, kumpulan artikel kajian ilmiah. <br>
-        2. Kenapa Harus Tahlilan; dimana buku ini disusun dengan membagi kepada tiga
-        jilid yang melingkupi Fiqh, Tafsir, Bahtsul Masail, dan mencermati tradisi atau
-        kebiasaan setempat dalam prosesi tahlilan.<br>
-        3. Cara Mudah Memahami Nahwu Shorof untuk Pemula. <br>
-        4. Buku Dzikir dan Do’a.
-      </p>
-      <p class="text-justify first-line-indent">
+      <ol type="1" class="line text-justify">
+        <li id="karya">
+          Menulis artikel pendek seputar fiqh mualamalah di beberapa situs.
+        </li>
+        <li id="karya">
+          Mengukur Riba Menuju Halal, kumpulan artikel kajian ilmiah.
+        </li>
+        <li id="karya">
+          Kenapa Harus Tahlilan; dimana buku ini disusun dengan membagi kepada tiga
+          jilid yang melingkupi Fiqh, Tafsir, Bahtsul Masail, dan mencermati tradisi atau
+          kebiasaan setempat dalam prosesi tahlilan.
+        </li>
+        <li id="karya">
+          Cara Mudah Memahami Nahwu Shorof untuk Pemula.
+        </li>
+        <li id="karya">
+          Buku Dzikir dan Do’a.
+        </li>
+      </ol>
+      <p class="text-justify">
         Sampai pada tahun 2023 tepatnya pada 17 Desember 2023 beliau resmi mendirikan
         Pondok Pesantren Daarul Azmi secara terbuka. Sesuai dengan Namanya Daarul
         Azmi, Daar yang berarti rumah atau tempat, Azmi berarti Kemauan yang Kuat, beliau
